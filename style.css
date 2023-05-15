@@ -2,3 +2,86 @@
     font-family: 'Mikuah';
     src: url(Mikuah.ttf);
 }
+
+body {
+    text-align: center;
+}
+.cover-section {
+    margin: 10px auto;
+    border: 4px solid lightgreen;
+    border-radius: 20%;
+    background-image: url(picture/tbilisicover.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 90%;
+    height: 600px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.main-title {
+    font-family: 'Dancing Script', cursive;
+    color: white;
+    font-size: 50px;
+    font-style: italic;
+    letter-spacing: 4px;
+    font-weight: 700;
+    text-shadow: 0 0 3px black;
+}
+
+.main-txt {
+    font-family: 'Dancing Script', cursive;
+    font-size: 30px;
+    text-align: center;
+    color: lightskyblue;
+    text-shadow: 2px 2px 2px black;
+    font-weight: 500;
+
+}
+
+.act-title {
+    margin-top: 15px;
+    font-family: 'Mikuah';
+    font-size: 50px;
+}
+
+.act-section {
+    width: 90%;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.acty-img {
+    width: 200px;
+    border: 2px solid greenyellow;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.box-one {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 5px;
+}
+
+.box-one-title {
+    font-family: 'Dancing Script', cursive;;
+    font-size: 18px;
+    font-weight: 700;
+    text-shadow: 0 0 2px;
+    letter-spacing: 3px;
+
+}
+
+.box-one-txt {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+    text-align: justify;
+}
